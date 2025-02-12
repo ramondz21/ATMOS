@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <section class="search-section">
+            <form class="search-form" role="search">
+                <input type="search" placeholder="Search for a city..." aria-label="Search for a city">
+                <button type="submit" aria-label="Search">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+            </form>
+        </section>
+        <section class="current-weather">
+            <div class="weather-main">
+                <h1 class="title">ATMOS 🌪️🌍</h1>
+                <br/>
+                <h1>San Francisco</h1>
+                <p class="date">Monday, February 12</p>
+                <div class="temperature">
+                    <span class="temp">22°C</span>
+                    <span class="condition">Sunny</span>
+                </div>
+            </div>
+            <div class="weather-details">
+                <div class="detail">
+                    <span class="label">Humidity</span>
+                    <span class="value">65%</span>
+                </div>
+                <div class="detail">
+                    <span class="label">Wind Speed</span>
+                    <span class="value">12 km/h</span>
+                </div>
+                <div class="detail">
+                    <span class="label">Pressure</span>
+                    <span class="value">1015 hPa</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="forecast">
+            <h2>5-Day Forecast</h2>
+            <div class="forecast-container">
+                <div class="forecast-day">
+                    <span class="day">Tue</span>
+                    <span class="temp">24°C</span>
+                    <span class="condition">Sunny</span>
+                </div>
+                <div class="forecast-day">
+                    <span class="day">Wed</span>
+                    <span class="temp">23°C</span>
+                    <span class="condition">Cloudy</span>
+                </div>
+                <div class="forecast-day">
+                    <span class="day">Thu</span>
+                    <span class="temp">21°C</span>
+                    <span class="condition">Rain</span>
+                </div>
+                <div class="forecast-day">
+                    <span class="day">Fri</span>
+                    <span class="temp">20°C</span>
+                    <span class="condition">Rain</span>
+                </div>
+                <div class="forecast-day">
+                    <span class="day">Sat</span>
+                    <span class="temp">22°C</span>
+                    <span class="condition">Cloudy</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
