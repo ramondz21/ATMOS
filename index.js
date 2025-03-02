@@ -1,5 +1,5 @@
 //Init
-const apiKey = "0b8fa2ed941ce1a86f8b7d86ccca9d84";
+const apiKey = ""; //apiKey here
 const form = document.querySelector(".search-form");
 const input = document.querySelector("input[aria-label='Search for a city']");
 const cityName = document.querySelector(".weather-main h1");
